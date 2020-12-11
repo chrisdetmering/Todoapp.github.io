@@ -1,0 +1,38 @@
+h1 {
+    font-size: 65px;
+    font-style: unset;
+    color: rgb(224, 206, 206);
+    text-align: center;
+    flex: 2;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
+}
+
+
+.button {
+    height: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: rgb(224, 206, 206);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: red;
+    border-radius: 20px;
+    border-style: groove;
+}
+
+.itembox {
+    height: 20px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
