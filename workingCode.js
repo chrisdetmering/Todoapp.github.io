@@ -1,1 +1,1 @@
-var button = onclick()
+const button = onclick()
