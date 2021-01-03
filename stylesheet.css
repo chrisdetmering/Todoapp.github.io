@@ -9,18 +9,34 @@ h1 {
 body {
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
 }
+.box1 {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    flex: auto;
+}
+.box2 {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    flex: auto;
+}
+.addtaskbtn {
+    padding: 50px;
+    text-align: center;
+}
 input {
     padding: 5px;
     height: 20px;
-    flex: 2;
 }
 button {
-    padding: 10px;
     height: 40px;
-    text-align: center;
-    font-style: unset;
+    width: 180px;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
 }
-
 fieldset {
     margin-top: 30px;
     font-size: 25px;
@@ -30,4 +46,5 @@ fieldset {
     flex: 2;
     padding: 50px;
     height: auto;
+    align-items: center;
 }
