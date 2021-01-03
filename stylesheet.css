@@ -5,23 +5,22 @@ h1 {
     text-align: center;
     flex: 2;
 }
-
 body {
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
 }
-.box1 {
+.weekday {
     margin: 0 auto;
     width: 300px;
     text-align: center;
     flex: auto;
 }
-.box2 {
+.task {
     margin: 0 auto;
     width: 300px;
     text-align: center;
     flex: auto;
 }
-.addtaskbtn {
+.taskBtn {
     padding: 50px;
     text-align: center;
 }

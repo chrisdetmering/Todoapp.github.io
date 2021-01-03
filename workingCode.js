@@ -1,11 +1,11 @@
-const dayInput = document.getElementById("dayInput");
-const taskInput = document.getElementById("taskInput");
-const btnAddtask = document.getElementById("btnAddtask");
+const box1 = document.getElementById("box1");
+const box2 = document.getElementById("box2");
+const addtaskbtn = document.getElementById("addtaskbtn");
 const lsOutput = document.getElementById("lsOutput");
 
-btnAddtask.onclick = function () {
-    const day = dayInput.Value;
-    const task = taskInput.Value;
+addtaskbtn.onclick = function () {
+    const day = box1.value;
+    const task = box2.value;
 
     if (day && task) {
         localStorage.setItem(day, task);
@@ -15,7 +15,8 @@ btnAddtask.onclick = function () {
 
 for (let i = 0; i < localStorage.length; i++) {
     const day = localStorage.day(i);
-    const task = localStorage.getItem(day);
+    const task = localStorage.getItem(task);
 
-    lsOutput.innerHTML += '{day}: {task}';
+    lsOutput.innerHTML += (day, task);
+
 }
