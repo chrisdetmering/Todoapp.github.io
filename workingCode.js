@@ -1,22 +1,20 @@
-const box1 = document.getElementById("box1");
-const box2 = document.getElementById("box2");
-const addtaskbtn = document.getElementById("addtaskbtn");
-const lsOutput = document.getElementById("lsOutput");
+const box1 = document.getElementsById('box1');
+const box2 = document.getElementsById('box2');
+const lsOutput = document.getElementById('lsOutput');
+const addtaskbtn = document.getElementsById('addtaskbtn').addEventListener('click', buttonClick);
 
-addtaskbtn.onclick = function () {
-    const day = box1.value;
-    const task = box2.value;
+function buttonClick(){
 
-    if (day && task) {
-        localStorage.setItem(day, task);
+    if (box1 && box2) {
+        localStorage.setItem(box1, box2);
         location.reload();
     }
 };
 
 for (let i = 0; i < localStorage.length; i++) {
-    const day = localStorage.day(i);
-    const task = localStorage.getItem(task);
+    const box1 = localStorage.box1(i);
+    const box2 = localStorage.getItem(box2);
 
-    lsOutput.innerHTML += (day, task);
+    lsOutput.innerHTML += (box1, box2);
 
 }
