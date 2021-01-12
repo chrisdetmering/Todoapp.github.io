@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JH To-Do App</title>
     <link href="stylesheet.css" rel="stylesheet">
+
+    <i class="fas fa-trash"></i>
+
+    
 </head>
 
 <h1>Things to get done:</h1>
 
-<body>
-    <div class="weekday">
-        <input id="box1" type="text" placeholder="Day of the week">
-    </div>
-
-    <div class="task">   
-        <input id="box2" type="text" placeholder="Enter task here">
-    </div>
+<body class="container">
+    <div class="task">
+        <form class="" action="index.html" method="POST">   
+            <input id="taskBox" type="text" placeholder="Enter task here">
+        </form>
     
     <div class="taskBtn">
-        <button id="addtaskbtn" type="button">Add Task</button>
+        <button id="taskBtn" type="submit">Add Task</button>
     </div>
-    
-    
-    <fieldset>
-        <legend>To Do:</legend>
-        <div id="lsOutput"></div>
-    </fieldset>
-    
+</div>
+
+<script src="workingCode.js"></script>
 </body>
-
-<script src = "workingCode.js"></script>
-
 </html>

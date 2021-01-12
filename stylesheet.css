@@ -8,12 +8,6 @@ h1 {
 body {
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
 }
-.weekday {
-    margin: 0 auto;
-    width: 300px;
-    text-align: center;
-    flex: auto;
-}
 .task {
     margin: 0 auto;
     width: 300px;
@@ -36,7 +30,7 @@ button {
     font-weight: bold;
     border-radius: 10px;
 }
-fieldset {
+.taskList {
     margin-top: 30px;
     font-size: 25px;
     font-style: unset;
