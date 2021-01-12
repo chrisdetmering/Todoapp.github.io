@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JH To-Do App</title>
     <link href="stylesheet.css" rel="stylesheet">
-
-    <i class="fas fa-trash"></i>
-
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <h1>Things to get done:</h1>
 
 <body class="container">
     <div class="task">
-        <form class="" action="index.html" method="POST">   
-            <input id="taskBox" type="text" placeholder="Enter task here">
+        <form>   
+            <input type="text" placeholder="New task">
+            <button type="submit" style="color: white;"><i class="fas fa-plus-square"></i></button>
+            <button type="submit" style="color: white;"><i class="fas fa-trash-alt"></i></button>
         </form>
-    
-    <div class="taskBtn">
-        <button id="taskBtn" type="submit">Add Task</button>
-    </div>
+
+        <div class="todoList">
+            <ul>
+
+            </ul>
+            <a class="clearList" id="clearList">Clear List</a>
+        </div>
 </div>
 
 <script src="workingCode.js"></script>
